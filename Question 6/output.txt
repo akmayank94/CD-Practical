@@ -1,0 +1,16 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 6>flex ques6.l
+
+D:\college\SEM - 7\CD\practicals\question 6>gcc lex.yy.c
+
+D:\college\SEM - 7\CD\practicals\question 6>a.exe
+
+--- File Analysis ---
+Lines      : 7
+Words      : 15
+Spaces     : 21
+Characters : 106
+
+D:\college\SEM - 7\CD\practicals\question 6>

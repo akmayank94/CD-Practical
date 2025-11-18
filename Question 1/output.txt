@@ -1,0 +1,12 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 1>flex ques1.l
+
+D:\college\SEM - 7\CD\practicals\question 1>gcc lex.yy.c
+
+D:\college\SEM - 7\CD\practicals\question 1>a.exe
+Number of lines: 2
+Number of characters: 63
+
+D:\college\SEM - 7\CD\practicals\question 1>

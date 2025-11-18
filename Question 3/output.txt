@@ -1,0 +1,10 @@
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 3>flex que3.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 3>gcc lex.yy.c
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 3>a.exe
+Enter the input string: qwerty on my keyboard
+tzhuwb rq pb nhberdug
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 3>

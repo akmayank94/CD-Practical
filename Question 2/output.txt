@@ -1,0 +1,15 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 2>flex ques2.l
+
+D:\college\SEM - 7\CD\practicals\question 2>gcc lex.yy.c
+
+D:\college\SEM - 7\CD\practicals\question 2>a.exe
+Enter the input string:
+Hello Computer (@!123)
+^Z
+No. of vowels are 5
+No. of consonants are 8
+
+D:\college\SEM - 7\CD\practicals\question 2>

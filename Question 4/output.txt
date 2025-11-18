@@ -1,0 +1,13 @@
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 4>flex que4.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 4>gcc lex.yy.c
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 4>a.exe
+Enter a string: I like to read Encyclopedia with my eyes closed.
+
+^Z
+
+Longest word: Encyclopedia
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 4>

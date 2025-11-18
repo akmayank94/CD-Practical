@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>flex a10b.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>bison -d a10b.y
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>gcc lex.yy.c a10b.tab.c -o que12.exe
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>que12.exe
+Enter string: aaaaaaaaaab
+Valid string
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>que12.exe
+Enter string: aab
+Invalid string
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>que12.exe
+Enter string: aaaaaaaaaaba
+Invalid string
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 12>

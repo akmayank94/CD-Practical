@@ -1,0 +1,46 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 5>flex ques5.l
+
+D:\college\SEM - 7\CD\practicals\question 5>gcc lex.yy.c -o ques5.exe
+
+D:\college\SEM - 7\CD\practicals\question 5>ques5.exe
+--- ANALYZING CODE ---
+
+KEYWORD    : int
+IDENTIFIER : main
+KEYWORD    : int
+IDENTIFIER : a
+OPERATOR   : =
+POS INT    : 10
+KEYWORD    : float
+IDENTIFIER : b
+OPERATOR   : =
+NEG FLOAT  : -3.14
+KEYWORD    : float
+IDENTIFIER : c
+OPERATOR   : =
+POS FLOAT  : 45.5
+KEYWORD    : int
+IDENTIFIER : d
+OPERATOR   : =
+NEG INT    : -100
+KEYWORD    : if
+IDENTIFIER : a
+POS INT    : 0
+KEYWORD    : return
+POS INT    : 0
+
+--- STATISTICS ---
+Keywords            : 7
+Identifiers         : 6
+Operators           : 4
+Positive Integers   : 3
+Negative Integers   : 1
+Positive Floats     : 1
+Negative Floats     : 1
+Single Line Comments: 1
+Multi Line Comments : 1
+
+D:\college\SEM - 7\CD\practicals\question 5>

@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 7>flex ques7.l
+
+D:\college\SEM - 7\CD\practicals\question 7>gcc lex.yy.c
+
+D:\college\SEM - 7\CD\practicals\question 7>a.exe
+Enter the string: abcdd
+abcdd
+abcd
+abc
+ab
+a
+^Z
+
+D:\college\SEM - 7\CD\practicals\question 7>

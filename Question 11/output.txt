@@ -1,0 +1,20 @@
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>flex abnb.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>bison -d abnb.y
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>gcc lex.yy.c abnb.tab.c -o que11.exe
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>que11.exe
+Enter string: abbb
+Invalid string
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>que11.exe
+Enter string: ab
+Valid string
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>que11.exe
+Enter string: a
+Invalid string
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 11>

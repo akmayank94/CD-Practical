@@ -1,0 +1,17 @@
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>flex que9.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>bison -d que9.y
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>gcc lex.yy.c que9.tab.c -o que9.exe
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>que9.exe
+Enter expression: 8*9+9*1
+^Z
+Valid expression
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>que9.exe
+Enter expression: 9++
+Invalid expression
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9>

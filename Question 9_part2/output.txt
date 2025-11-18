@@ -1,0 +1,32 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>flex que9_2.l
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>bison -d que9_2.y
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>gcc lex.yy.c que9_2.tab.c -0 que9_2.exe
+gcc: error: que9_2.exe: No such file or directory
+gcc: error: unrecognized command line option '-0'
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>gcc lex.yy.c que9_2.tab.c -o que9_2.exe
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>que9_2.exe
+Enter variable: a5
+Valid variable
+
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>que9_2.exe
+Enter variable: A7
+Invalid variable
+
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>que9_2.exe
+Enter variable: aa3
+Invalid variable
+
+^Z
+
+C:\Users\Mayank\OneDrive - Keshav Mahavidyalaya\Desktop\CD PRACTICALS\Question 9_part2>

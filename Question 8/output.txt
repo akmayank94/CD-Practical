@@ -1,0 +1,33 @@
+Microsoft Windows [Version 10.0.26200.7171]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\college\SEM - 7\CD\practicals\question 8>flex ques8.l
+
+D:\college\SEM - 7\CD\practicals\question 8>gcc lex.cc.y
+gcc: error: lex.cc.y: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+
+D:\college\SEM - 7\CD\practicals\question 8>gcc lex.yy.c
+
+D:\college\SEM - 7\CD\practicals\question 8>a.exe
+Enter the arithmetic expression: a+b
+
+Valid Arithmetic Expression
+
+D:\college\SEM - 7\CD\practicals\question 8>a.exe
+Enter the arithmetic expression: (a+b)*c
+
+Valid Arithmetic Expression
+
+D:\college\SEM - 7\CD\practicals\question 8>a.exe
+Enter the arithmetic expression: (a+
+
+Invalid Arithmetic Expression
+
+D:\college\SEM - 7\CD\practicals\question 8>a.exe
+Enter the arithmetic expression: ((p+q)
+
+Invalid Arithmetic Expression
+
+D:\college\SEM - 7\CD\practicals\question 8>
