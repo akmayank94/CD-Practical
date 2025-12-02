@@ -1,0 +1,11 @@
+LEX running command
+lex file_name.l
+cc lex.yy.c
+./a.out
+
+
+lex+yycc commands:
+yacc -d file_name.y
+lex file_name.l
+cc -o file_name y.tab.c lex.yy.c -ly -ll
+./file_name
