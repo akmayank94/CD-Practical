@@ -1,0 +1,54 @@
+YACC FILE FOR 9B-
+
+%{
+#include <stdio.h>
+#include <stdlib.h>
+
+int yylex();
+void yyerror(const char *s);
+%}
+
+%token VALIDVAR
+%token INVALID
+
+%%
+
+start:
+      VALIDVAR      { printf("\nValid variable\n"); return 0; }
+    | INVALID       { printf("\nInvalid variable\n"); return 0; }
+    ;
+
+%%
+
+void yyerror(const char *s) {
+    printf("\nInvalid variable\n");
+}
+
+int main() {
+    printf("Enter variable (e.g., a7): ");
+    yyparse();
+    return 0;
+}
+
+
+LEX for this program - 
+%{
+#include "y.tab.h"
+%}
+
+%%
+
+[a-z][0-9]      { return VALIDVAR; }
+\n              { return 0; }        /* Handle Enter key properly */
+.               { return INVALID; }  /* Match only ONE invalid char at a time */
+
+%%
+
+int yywrap() { return 1; }
+
+
+
+
+
+
+LE
