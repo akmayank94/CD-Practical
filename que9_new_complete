@@ -45,10 +45,3 @@ LEX for this program -
 %%
 
 int yywrap() { return 1; }
-
-
-
-
-
-
-LE
